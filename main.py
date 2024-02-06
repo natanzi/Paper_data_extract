@@ -57,8 +57,8 @@ def process_folder(folder, csv_file):
             for _ in tqdm(as_completed(futures), total=len(futures), desc="Processing PDFs"):
                 pass  # Each future writes directly to CSV upon completion
 
-pdf_dir = r'C:\Users\snatanzi\OneDrive - Worcester Polytechnic Institute (wpi.edu)\My folder\Papers'
-csv_file = r'C:\Users\snatanzi\OneDrive - Worcester Polytechnic Institute (wpi.edu)\My folder\Papers\output.csv'
+pdf_dir = r'C:\.....'
+csv_file = r'C:\....Papers\output.csv'
 
 folder = Path(pdf_dir)
 process_folder(folder, csv_file)
